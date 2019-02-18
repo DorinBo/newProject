@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <title>Project Management Tool</title>
+    <script src="project.js" defer></script>
+    <link href="projectstyle.css" rel="stylesheet" type="text/css">
+    
+</head>
+
+<body>
+    
+    <form>
+        <h1>Project Management Tool</h1>
+        <div class="formular1">
+            <label>Create your types of issues</label><br>
+            <select id="issue">
+                <option id="issue10" value="Features">Features</option>
+                <option id="issue10" value="Bugs">Bugs</option>
+                <option id="issue10" value="Tasks">Tasks</option>
+           </select>
+        </div>
+        <div class="formular1">
+            <label>Issue status</label><br>
+            <select id="issue">
+                <option id="issue20" value="New">New</option>
+                <option id="issue20" value="In progress">In progress</option>
+                <option id="issue20" value="Feedback">Feedback</option>
+                <option id="issue20" value="Rework">Rework</option>
+                <option id="issue20" value="Resolved">Resolved</option>
+                <option id="issue20" value="Ready for Testing">Ready for Testing</option>
+            </select>
+        </div>
+        <div class="formular1">
+            <label>Your Name</label><br>
+            <input class="nume" type="text" placeholder="Your Name">
+            <label>Your ID</label><br>
+            <div class="idname"></div><br>
+            <label>CreatedBy</label><br>
+            <div class="nume100"></div><br>
+            <label>CreatedAt</label><br>
+            <div class="nameBy"></div><br>
+            <label>UpdatedAt</label><br>
+            <div class="name"></div><br>
+         </div>
+     </form>
+    <button onclick="generateId()">Submit</button>
+
+
+  
+</body>
+
+</html>
